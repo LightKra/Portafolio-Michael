@@ -1,0 +1,18 @@
+.seccion-portafolio-fondo{
+    padding: 50px 0px;
+    background-color: var(--third-color);
+}
+.seccion-portafolio{
+    color: var(--text-color);
+}
+.seccion-portafolio-titulo{
+    margin-top: 0px;
+    text-align: center;
+    font-size: 4rem;
+}
+.seccion-portafolio-lista{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px
+}

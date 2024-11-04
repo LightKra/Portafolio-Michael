@@ -1,0 +1,93 @@
+.seccion-perfil{
+    margin-top: 100px;
+    padding: 40px 0px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 70px;
+    color: var(--text-color);
+}
+.seccion-perfil-imagen{
+    width: 450px;
+    height: 450px;
+    border-radius: 300px;
+    box-shadow: 0 0 20px rgba(206, 72, 52, 0.8);
+    object-fit: cover;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.seccion-perfil-imagen:hover{
+    box-shadow: 
+    0 0 20px rgba(206, 72, 52, 0.8),  /* Luz cercana intensa */
+    0 0 40px rgba(206, 72, 52, 0.6), /* Capa difuminada intermedia */
+    0 0 80px rgba(206, 72, 52, 0.4); /* Luz lejana más suave */
+    filter: brightness(1.1); /* Aumenta un poco el brillo */
+}
+.seccion-perfil-informacion{
+    margin-top: 95px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.seccion-perfil-informacion-titulo1{
+    margin: 0px;
+    font-size: 3rem;
+}
+.seccion-perfil-informacion-titulo2{
+    margin: 0px;
+    font-size: 2rem;
+}
+
+.seccion-perfil-informacion-titulo1-resaltado2{
+    display: inline-block;
+    overflow: clip;
+    color: var(--secondary-color);
+    border-right: 3px solid var(--secondary-color);
+    white-space: nowrap;
+    width: 320px;
+    animation: escribir 5s ease infinite, blink-caret 0.5s ease infinite alternate;
+}
+@keyframes escribir {
+    0% {
+        width: 0px;
+    }
+    50% {
+        width: 320px;
+    }
+    100% {
+        width: 0px;
+    }
+}
+@keyframes blink-caret {
+    from{
+        border-color: transparent;
+    }
+    to{
+        border-color: var(--secondary-color);
+    }
+}
+.seccion-perfil-informacion-titulo1-resaltado{
+    color: var(--secondary-color);
+}
+
+@media screen and (max-width: 980px){
+    .seccion-perfil{
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+    .seccion-perfil-imagen{
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width: 580px) {
+    .seccion-perfil{
+        margin-top: 100px;
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+    .seccion-perfil-imagen{
+        margin: 0 auto;
+        width: 260px;
+        height: 260px;
+    }
+}

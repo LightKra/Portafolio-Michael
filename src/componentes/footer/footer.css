@@ -1,0 +1,10 @@
+.footer-fondo{
+    background-color: var(--secondary-color);
+}
+.footer{
+    padding: 10px 0px;
+}
+.footer-informacion{
+    text-align: center;
+    color: var(--text-color);
+}

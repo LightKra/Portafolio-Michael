@@ -1,0 +1,20 @@
+.tarjeta-skills{
+    width: 150px;
+    padding: 10px 30px;
+    border-radius: 15px;
+    background-color: var(--primary-color);
+    box-shadow: 0 0 0px rgba(206, 72, 52, 0.8);
+    filter: brightness(1.1);
+    transition: all .3s ease;
+    cursor: pointer;
+}
+.tarjeta-skills:hover{
+    box-shadow: 0 0 20px rgba(206, 72, 52, 0.8);
+}
+.tarjeta-skills-imagen{
+    width: 100%;
+}
+.tarjeta-skills-nombre{
+    margin: 0px;
+    text-align: center;
+}

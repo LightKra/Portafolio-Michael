@@ -1,0 +1,19 @@
+.seccion-servicios-fondo{
+    margin-top: 80px;
+    padding: 50px 0px;
+    background-color: var(--third-color);
+}
+.seccion-servicios{
+    padding-bottom: 65px;
+}
+.seccion-servicios-titulo{
+    margin-top: 0px;
+    text-align: center;
+    font-size: 4rem;
+    color: var(--text-color);
+}
+.seccion-servicios-lista{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 18px;
+}

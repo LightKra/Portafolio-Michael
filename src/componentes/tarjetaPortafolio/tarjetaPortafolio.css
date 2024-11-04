@@ -1,0 +1,14 @@
+.tarjeta-portafolio{
+    width: 400px;;
+    border-radius: 20px;
+    background-color: var(--primary-color);
+}
+.tarjeta-portafolio-informacion{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+}
+.tarjeta-portafolio-imagen{
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+}

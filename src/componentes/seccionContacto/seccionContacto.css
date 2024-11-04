@@ -1,0 +1,9 @@
+.seccion-contacto{
+    padding: 50px 0px;
+    color: var(--text-color);
+}
+.seccion-contacto-titulo{
+    margin-top: 0px;
+    text-align: center;
+    font-size: 4rem;
+}

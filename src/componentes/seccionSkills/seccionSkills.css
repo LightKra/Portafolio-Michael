@@ -1,0 +1,21 @@
+.seccion-skills{
+    width: 60%;
+    margin: 0px auto;
+    padding-top: 30px;
+    padding-bottom: 70px;
+    color: var(--text-color);
+}
+.seccion-skills-titulo{
+    margin-top: 0px;
+    text-align: center;
+    font-size: 4rem;
+}
+.seccion-skills-lista{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 15px;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: var(--fouth-color);
+}

@@ -1,0 +1,19 @@
+.tarjeta{
+    flex-grow: 1;
+    width: 350px;
+    padding: 5px 40px;
+    border-radius: 20px;
+    border: 1px solid var(--secondary-color);
+    color: var(--text-color);
+    background-color: var(--secondary-color);
+    cursor: pointer;
+    transition: all .3s ease;
+}
+.tarjeta-titulo{
+    font-size: 1.4rem;
+    text-align: center;
+}
+.tarjeta:hover {
+    color: var(--secondary-color);
+    background-color: var(--third-color);
+}
