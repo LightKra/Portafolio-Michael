@@ -1,4 +1,4 @@
-import './SeccionSkills.css'
+import './seccionSkills.css'
 import { TarjetaSkills } from '../tarjetaSkills/tarjetaSkills.jsx'
 /**
  * 
