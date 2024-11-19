@@ -10,6 +10,7 @@ import imagenWebTresEnRaya from './assets/Imagenes/webTresEnRaya.png'
 import imagenWebEmpresaElectrica from './assets/Imagenes/webEmpresaElectrica.png'
 import imagenWebRestaurante from './assets/Imagenes/webRestaurante.png'
 import imagenCarritoCompra from './assets/Imagenes/webCarritoCompra.png'
+import imagenApiEcommerce from './assets/Imagenes/ApiEcommerce.png'
 
 export const appData = {
     navbar : {
@@ -47,7 +48,8 @@ export const appData = {
         {imagen: imagenWebEmpresaElectrica, imagenAlt: "portada del proyecto", titulo: "Web Empresa Electricidad", textoBoton: "Abrir", url: "https://github.com/LightKra/Instalacion-Electrica"},
         {imagen: imagenWebTresEnRaya, imagenAlt: "portada del proyecto", titulo: "Juego Tres En Raya", textoBoton: "Abrir", url: "https://github.com/LightKra/TicToc-Juego"},
         {imagen: imagenApiMusica, imagenAlt: "portada del proyecto", titulo: "Api De Musica", textoBoton: "Abrir", url: "https://github.com/LightKra/Api-Musica"},
-        {imagen: imagenCarritoCompra, imagenAlt: "portada del proyecto", titulo: "Carrito De Compras", textoBoton: "Abrir", url: "https://github.com/LightKra/Carrito-Ecommerce"}
+        {imagen: imagenCarritoCompra, imagenAlt: "portada del proyecto", titulo: "Carrito De Compras", textoBoton: "Abrir", url: "https://github.com/LightKra/Carrito-Ecommerce"},
+        {imagen: imagenApiEcommerce, imagenAlt: "portada del proyecto", titulo: "Api Para Ecommerce", textoBoton: "Abrir", url: "https://github.com/LightKra/Api-Ecommerce"}
       ]
     }
   }
