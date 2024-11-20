@@ -5,7 +5,6 @@ import imagenExpress from './assets/Imagenes/express.png'
 import imagenHtml from './assets/Imagenes/html.png'
 import imagenMysql from './assets/Imagenes/mysql.png'
 import imagenNode from './assets/Imagenes/node.png'
-import imagenApiMusica from './assets/Imagenes/ApiMusica.png'
 import imagenWebTresEnRaya from './assets/Imagenes/webTresEnRaya.png'
 import imagenWebEmpresaElectrica from './assets/Imagenes/webEmpresaElectrica.png'
 import imagenWebRestaurante from './assets/Imagenes/webRestaurante.png'
@@ -47,7 +46,6 @@ export const appData = {
         {imagen: imagenWebRestaurante, imagenAlt: "portada del proyecto", titulo: "Web Para Restaurante", textoBoton: "Abrir", url: "https://github.com/LightKra/Pagina-Web-Restaurante"},
         {imagen: imagenWebEmpresaElectrica, imagenAlt: "portada del proyecto", titulo: "Web Empresa Electricidad", textoBoton: "Abrir", url: "https://github.com/LightKra/Instalacion-Electrica"},
         {imagen: imagenWebTresEnRaya, imagenAlt: "portada del proyecto", titulo: "Juego Tres En Raya", textoBoton: "Abrir", url: "https://github.com/LightKra/TicToc-Juego"},
-        {imagen: imagenApiMusica, imagenAlt: "portada del proyecto", titulo: "Api De Musica", textoBoton: "Abrir", url: "https://github.com/LightKra/Api-Musica"},
         {imagen: imagenCarritoCompra, imagenAlt: "portada del proyecto", titulo: "Carrito De Compras", textoBoton: "Abrir", url: "https://github.com/LightKra/Carrito-Ecommerce"},
         {imagen: imagenApiEcommerce, imagenAlt: "portada del proyecto", titulo: "Api Para Ecommerce", textoBoton: "Abrir", url: "https://github.com/LightKra/Api-Ecommerce"}
       ]
