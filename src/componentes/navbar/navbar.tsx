@@ -69,7 +69,19 @@ export const Navbar: React.FC<NavbarType> = ({name, menu})=>{
                 <div className={`${menuMovil ? "navbar-lista3 navbar-lista3-activo" : "navbar-lista3"}`}>
                     {
                         menu.map((item, index)=>{
-
+                            
+                            if(isRouteLink){
+                                return (
+                                <Link 
+                                key={index} 
+                                className={`${item === enlaceActivo ? "navbar-lista2-item activo" : "navbar-lista2-item"}`} 
+                                to={`/`}
+                                onClick={handlerClickEnlace(item)}
+                                >
+                                    {item}
+                                </Link>
+                                )
+                            }
                             return(
                                 <a
                                 key={index} 

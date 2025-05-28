@@ -1,5 +1,5 @@
 {
-  "name": "portafoliomichaeltype",
+  "name": "Portafolio-Michael",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,6 +9,13 @@
     "lint": "eslint .",
     "preview": "vite preview"
   },
+  "author": "Michael Alava",
+  "keywords": [
+    "vite",
+    "react",
+    "typescript",
+    "portfolio"
+  ],
   "dependencies": {
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
