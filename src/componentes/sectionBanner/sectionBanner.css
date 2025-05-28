@@ -1,0 +1,11 @@
+.section-banner{
+    margin-top: 100px;
+    margin-bottom: 40px;
+    color: var(--text-color);
+}
+.section-banner-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}

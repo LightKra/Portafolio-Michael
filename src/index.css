@@ -27,6 +27,13 @@ body{
   width: 80%;
   margin: 0px auto;
 }
+.app-spinner{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 @media screen and (max-width: 890px) {
   .container{
     width: 90%;

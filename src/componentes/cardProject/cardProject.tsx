@@ -2,17 +2,18 @@ import React from 'react'
 import './cardProject.css'
 import { Button } from '../button/button.js'
 import type { CardProjectProps } from '../../types/types.js'
+import { Link } from 'react-router'
 
-export const CardProject: React.FC<CardProjectProps> = ({name, image, link})=>{
+export const CardProject: React.FC<CardProjectProps> = ({id, name, image})=>{
 
     return(
         <div className="tarjeta-portafolio">
             <img className='tarjeta-portafolio-imagen' src={image.src} alt={image.alt} />
             <div className='tarjeta-portafolio-informacion'>
                 <h3 className='tarjeta-portafolio-titulo'>{name}</h3>
-                <a href={link} target='_blank'>
+                <Link to={`/project/${id}`}>
                     <Button>Abrir</Button>
-                </a>
+                </Link>
             </div>
         </div>
     )

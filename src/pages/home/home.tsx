@@ -1,7 +1,6 @@
 import React from "react";
-import { Navbar } from "../../componentes/navbar/navbar";
 import { SectionProfile } from "../../componentes/sectionProfile/sectionProfile";
-import { appData } from "../../appData";
+import { appData } from "../../services/appData";
 import { SectionServices } from "../../componentes/sectionServices/sectionServices";
 import { SectionSkills } from "../../componentes/sectionSkills/sectionSkills";
 import { SectionProject } from "../../componentes/sectionProject/sectionProject";
@@ -11,10 +10,6 @@ import { Footer } from "../../componentes/footer/footer";
 export const Home: React.FC = ()=>{
     return (
             <>
-              <Navbar 
-                name={appData.navbar.name} 
-                menu={appData.navbar.menu}
-              />
               <main>
                 <SectionProfile 
                   image={appData.sectionProfile.image}

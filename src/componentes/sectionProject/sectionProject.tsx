@@ -12,7 +12,7 @@ export const SectionProject: React.FC<SectionProjectProps> = ({ projects })=>{
                 <div className="seccion-portafolio-lista">
                     {
                         projects.map(item =>(
-                            <CardProject key={item.id} image={item.image[0]} name={item.name} link={item.link}/>
+                            <CardProject key={item.id} id={item.id} image={item.image[0]} name={item.name}/>
                         ))
                     }
                 </div>
