@@ -15,8 +15,6 @@ export const Form: React.FC = ()=>{
             method: "POST",
             body: newForm
         })
-            .then(response => response.json())
-            .then(data => console.log(data));
         formElement.reset();
         setForm(true);
     };
